@@ -1,5 +1,5 @@
 {
-  "IsEnabled": true,
+  "IsEnabled1": true,
   "Name": "agent-azure-management",
   "Description": "agent-azure-management",
   "LlmType": "llm-performance-optimized",
