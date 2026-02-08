@@ -1,5 +1,5 @@
 {
-  "IsEnabled": true,
+  "IsEnabled22": true,
   "Name": "agent-accumulate-tag-context",
   "Description": "Analyzes resources to accumulate context for tag generation",
   "LlmType": "llm-performance-optimized",
@@ -96,3 +96,4 @@
   "Version": 0,
   "FlowName": "skill-tag-management"
 }
+
