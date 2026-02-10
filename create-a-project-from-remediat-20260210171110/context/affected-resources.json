@@ -1,7 +1,948 @@
 {
-  "recommendationType": "{{recommendationTitle}}",
+  "recommendationType": "Downscale disks",
   "affectedResources": [
-    {{affectedResourcesJson}}
+    {
+  "name": "datamart2az-p30stripe6",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe6",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "whs-adf-shire02_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/whs-adf-shire02_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusdappgwcon_osdisk_1_15269101ca304db4bdad18414bafb2c0",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/vmwcusdappgwcon_osdisk_1_15269101ca304db4bdad18414bafb2c0",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "anteriadfwprod-osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadfwprod/providers/microsoft.compute/disks/anteriadfwprod-osdisk",
+  "recommendedAction": "Change tier from \u0027P3 LRS Disk\u0027 to \u0027E3 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdapp-reports-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/disks/mrtdapp-reports-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mrtweb2-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/disks/mrtweb2-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushnetutil_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushnetutil_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "birch_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/birch_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "ia-adf-shire01_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/ia-adf-shire01_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "pmd-adf-shire01_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/pmd-adf-shire01_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusdba01_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-dba-core-rg01/providers/microsoft.compute/disks/vmwcusdba01_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "ia-prod-domo01_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-ia-core-rg01/providers/microsoft.compute/disks/ia-prod-domo01_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "cmd-adf-shire01_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/cmd-adf-shire01_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushmdca_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushmdca_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushmddc02_osdisk_1_9e16b1fb917b4949a6004dfd98303017",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushmddc02_osdisk_1_9e16b1fb917b4949a6004dfd98303017",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushnetdc001_osdisk_1_91d7c717c5e54368a67e522bbaa3410a",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushnetdc001_osdisk_1_91d7c717c5e54368a67e522bbaa3410a",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushnetdc002_disk1_502837afd400416683f6f466b2ff8164",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushnetdc002_disk1_502837afd400416683f6f466b2ff8164",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushdmzdc001_disk1_b75f8c96de0844afbf0d05bc6af09e4a",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushdmzdc001_disk1_b75f8c96de0844afbf0d05bc6af09e4a",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushdmzdc002_disk1_209a74399d724b7cb646a6c31c3251c0",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushdmzdc002_disk1_209a74399d724b7cb646a6c31c3251c0",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "itadfshire01-osdisk-20251227-065209",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/itadfshire01-osdisk-20251227-065209",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "iasynshire01-osdisk-20251227-082056",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/iasynshire01-osdisk-20251227-082056",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushdmzdc01res-osdisk-20251227-091706",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushdmzdc01res-osdisk-20251227-091706",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushdmzdc02res-osdisk-20251227-091744",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushdmzdc02res-osdisk-20251227-091744",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mdchfs02res-osdisk-20251228-223226",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mdchfs02res-osdisk-20251228-223226",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "ia-adf-shire02_osdisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-it-shire-rg01/providers/microsoft.compute/disks/ia-adf-shire02_osdisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "anteastutil-osdisk-20251227-081936",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/anteastutil-osdisk-20251227-081936",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_logs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_logs",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_db",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_db",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_tempdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_tempdb",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mango_dblogs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mango_dblogs",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mango_databases",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mango_databases",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mango_files",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mango_files",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "cottonwood-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/cottonwood-osdisk-00",
+  "recommendedAction": "Change tier from \u0027E15 LRS Disk\u0027 to \u0027S15 LRS Disk\u0027"
+},
+    {
+  "name": "mango_tempdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mango_tempdb",
+  "recommendedAction": "Change tier from \u0027P4 LRS Disk\u0027 to \u0027E4 LRS Disk\u0027"
+},
+    {
+  "name": "iasandbox_logs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/iasandbox_logs",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "iasandbox_database1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/iasandbox_database1",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "db12-osdisk-20231020-183654",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/db12-osdisk-20231020-183654",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "papaya_databases",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/papaya_databases",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "iasandbox_tempdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/iasandbox_tempdb",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "sal_logs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sal_logs",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "sal_tempdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sal_tempdb",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "sal_files",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sal_files",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "sal_db",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sal_db",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushapps01_datadisk_0",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/vmwcushapps01_datadisk_0",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe3",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe3",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe1",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe2",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe2",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe10",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe10",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe5",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe5",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe7",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe7",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-logs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-logs",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe4",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe4",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe8",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe8",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe9",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe9",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe2",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe2",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe3",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe3",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe7",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe7",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe4",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe4",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe5",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe5",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe6",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe6",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe8",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe8",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_p50stripe1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_p50stripe1",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_sqllog",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_sqllog",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe12",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe12",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe13",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe13",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe14",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe14",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe16",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe16",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe11",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe11",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az-p30stripe15",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az-p30stripe15",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "thomagata-pinnacledata",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/thomagata-pinnacledata",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "thomagata-mercurydata",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/thomagata-mercurydata",
+  "recommendedAction": "Change tier from \u0027P60 LRS Disk\u0027 to \u0027E60 LRS Disk\u0027"
+},
+    {
+  "name": "dev-elderberry_data01",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-dev-pmd-vm01/providers/microsoft.compute/disks/dev-elderberry_data01",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "mdfile02res-osdisk-20251227-081118",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/mdfile02res-osdisk-20251227-081118",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart1-dblog",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart1-dblog",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart1-dbp40",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart1-dbp40",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart1-dbp50",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart1-dbp50",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart1-dbp40-2",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart1-dbp40-2",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusvdi-whs_datadisk_0",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/vmwcusvdi-whs_datadisk_0",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "wcusdevitvm02-userlog",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/wcusdevitvm02-userlog",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "wcusdevitvm02-userdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/wcusdevitvm02-userdb",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "wcusdevitvm02-systemdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/wcusdevitvm02-systemdb",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "wcusdevitvm02-dpacentral",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/wcusdevitvm02-dpacentral",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_userdb_f",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_userdb_f",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "birch-systemdb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/birch-systemdb",
+  "recommendedAction": "Change tier from \u0027P3 LRS Disk\u0027 to \u0027E3 LRS Disk\u0027"
+},
+    {
+  "name": "birch-dblogs01",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/birch-dblogs01",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "birch-dbdata01",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/birch-dbdata01",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_userdb_g",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_userdb_g",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusdba01_systemdbs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-dba-core-rg01/providers/microsoft.compute/disks/vmwcusdba01_systemdbs",
+  "recommendedAction": "Change tier from \u0027P1 LRS Disk\u0027 to \u0027E1 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusdba01_userdbs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-dba-core-rg01/providers/microsoft.compute/disks/vmwcusdba01_userdbs",
+  "recommendedAction": "Change tier from \u0027P1 LRS Disk\u0027 to \u0027E1 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusdba01_userlogs",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-prod-dba-core-rg01/providers/microsoft.compute/disks/vmwcusdba01_userlogs",
+  "recommendedAction": "Change tier from \u0027P1 LRS Disk\u0027 to \u0027E1 LRS Disk\u0027"
+},
+    {
+  "name": "tigerwoodaz-datadisk-001-20260113-215044",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/tigerwoodaz-datadisk-001-20260113-215044",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "tigerwoodaz-datadisk-006-20260113-215044",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/tigerwoodaz-datadisk-006-20260113-215044",
+  "recommendedAction": "Change tier from \u0027P40 LRS Disk\u0027 to \u0027E40 LRS Disk\u0027"
+},
+    {
+  "name": "anteriadfwprod-datadisk",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadfwprod/providers/microsoft.compute/disks/anteriadfwprod-datadisk",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "seabeam-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/seabeam-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "apple-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/apple-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "banyan_osdisk_1_10b938c9de574a44968a66f239958d4a",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/banyan_osdisk_1_10b938c9de574a44968a66f239958d4a",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "mango_osdisk_1_3216a8c64fa742feb8d8f3596d41774a",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mango_osdisk_1_3216a8c64fa742feb8d8f3596d41774a",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "maple-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/maple-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "datamart10-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart10-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "vmweastnetdc01_osdisk_1_07adfe9d3df941c2aa3383f8d6769823",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/vmweastnetdc01_osdisk_1_07adfe9d3df941c2aa3383f8d6769823",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2test-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/datamart2test-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "ninmada-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/ninmada-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "elderberry-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/elderberry-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "sassafras_osdisk_1_0c9b27fc98e14c578534283eac062616",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sassafras_osdisk_1_0c9b27fc98e14c578534283eac062616",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "iasandbox_osdisk_1_2293ce9fb2444adf95a7021ba827134b",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/iasandbox_osdisk_1_2293ce9fb2444adf95a7021ba827134b",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweastdmzdc01_osdisk_1_b9fa1843d5274d4da3a71ee0cabf4ab4",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/vmweastdmzdc01_osdisk_1_b9fa1843d5274d4da3a71ee0cabf4ab4",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "testdapp-reports-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/testdapp-reports-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "lime_osdisk_1_aded19d37fed4ac391a11af433e807ca",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/lime_osdisk_1_aded19d37fed4ac391a11af433e807ca",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "walnut-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/walnut-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "dataiku-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/dataiku-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "datamart3-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart3-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "sal_osdisk_1_582390e254484278b861b4f43f5b84de",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/sal_osdisk_1_582390e254484278b861b4f43f5b84de",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "linden_osdisk_1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-storage-01/providers/microsoft.compute/disks/linden_osdisk_1",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushnetdc01_osdisk_1_576b5e89590641a299b0b3b5a564b83f",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushnetdc01_osdisk_1_576b5e89590641a299b0b3b5a564b83f",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushnetdc02_osdisk_1_618c0a9993974639aad12f7f5678f0f4",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-h-compute-01/providers/microsoft.compute/disks/vmwcushnetdc02_osdisk_1_618c0a9993974639aad12f7f5678f0f4",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcushapps01_osdisk_1_fb9e48ec9b494ca9bde97f9927df9d23",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/vmwcushapps01_osdisk_1_fb9e48ec9b494ca9bde97f9927df9d23",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "datamart2az_osdisk_1_e01ee87cfb3c4e0aabbd2edead893ab1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/datamart2az_osdisk_1_e01ee87cfb3c4e0aabbd2edead893ab1",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart2az_osdisk_1_c3712f8b06714fc584b49b07bea60a2f",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart2az_osdisk_1_c3712f8b06714fc584b49b07bea60a2f",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "dd-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/disks/dd-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "hd-dapp-reports-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/disks/hd-dapp-reports-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "wolffish-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/disks/wolffish-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "thomagataaz_osdisk_1_341d1390c0e1467a8e0d145a8f1fa487",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/thomagataaz_osdisk_1_341d1390c0e1467a8e0d145a8f1fa487",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "meritanalyticsaz_osdisk_1_f43b7f5ae4c34e7aa19ea5fd66e3bfda",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/meritanalyticsaz_osdisk_1_f43b7f5ae4c34e7aa19ea5fd66e3bfda",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "spot-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/spot-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "dev-elderberry_osdisk_1_3108fd3dfb53476ca8180050f38ff53c",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-dev-pmd-vm01/providers/microsoft.compute/disks/dev-elderberry_osdisk_1_3108fd3dfb53476ca8180050f38ff53c",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweastmddc02_disk1_cec6b65af8f1400d84f91491e673b9e1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/vmweastmddc02_disk1_cec6b65af8f1400d84f91491e673b9e1",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweastmddc01_disk1_036bd8b2069c4c72b83c75e37214f8e1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/vmweastmddc01_disk1_036bd8b2069c4c72b83c75e37214f8e1",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "mdw1014res-osdisk-20251227-070633",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/mdw1014res-osdisk-20251227-070633",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "ssgcobrares-osdisk-20251227-064640",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/ssgcobrares-osdisk-20251227-064640",
+  "recommendedAction": "Change tier from \u0027P20 LRS Disk\u0027 to \u0027E20 LRS Disk\u0027"
+},
+    {
+  "name": "mdsql02-osdisk-20251227-182427",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/anteriadryebrookprod/providers/microsoft.compute/disks/mdsql02-osdisk-20251227-182427",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "firstlogic-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/firstlogic-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P15 LRS Disk\u0027 to \u0027E15 LRS Disk\u0027"
+},
+    {
+  "name": "empress-whsp-osdisk-00",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/empress-whsp-osdisk-00",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "mrtdatamart1az_osdisk_1_3c63d9392b814dff8d30864357626cf1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/mrtdatamart1az_osdisk_1_3c63d9392b814dff8d30864357626cf1",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmwcusvdi-whs_osdisk_1_6b37b7dd258341f994e95ed328cb5b05",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/disks/vmwcusvdi-whs_osdisk_1_6b37b7dd258341f994e95ed328cb5b05",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "wcusdevitvm02_osdisk_1_aca2e4d12d1b438a8be584c7776103fa",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/disks/wcusdevitvm02_osdisk_1_aca2e4d12d1b438a8be584c7776103fa",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe2",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe2",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe6",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe6",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe7",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe7",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe3",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe3",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_sql_log",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_sql_log",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe4",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe4",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe5",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe5",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_p30stripe1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_p30stripe1",
+  "recommendedAction": "Change tier from \u0027P30 LRS Disk\u0027 to \u0027E30 LRS Disk\u0027"
+},
+    {
+  "name": "alps_database1",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps_database1",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "scandinavianres-osdisk-20251226-222154",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/scandinavianres-osdisk-20251226-222154",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "alps-osdisk-20251227-014001",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps-osdisk-20251227-014001",
+  "recommendedAction": "Change tier from \u0027E20 LRS Disk\u0027 to \u0027S20 LRS Disk\u0027"
+},
+    {
+  "name": "alps-datadisk-000-20251227-014001",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/alps-datadisk-000-20251227-014001",
+  "recommendedAction": "Change tier from \u0027P50 LRS Disk\u0027 to \u0027E50 LRS Disk\u0027"
+},
+    {
+  "name": "dolomitesres-osdisk-20251227-003319",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/dolomitesres-osdisk-20251227-003319",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "pyreneesres-osdisk-20251227-002723",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/pyreneesres-osdisk-20251227-002723",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "carpathianres-osdisk-20251227-182131",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/carpathianres-osdisk-20251227-182131",
+  "recommendedAction": "Change tier from \u0027E10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweumddc01_osdisk_1_0684465199bc4d6084cc4aa1107a4709",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweumddc01_osdisk_1_0684465199bc4d6084cc4aa1107a4709",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweudmzdc01_osdisk_1_c1a369be48c9487b9d06e339b9be8abb",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweudmzdc01_osdisk_1_c1a369be48c9487b9d06e339b9be8abb",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweunetdc01_osdisk_1_e80e2746f2964ae5a5560a37454fff76",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweunetdc01_osdisk_1_e80e2746f2964ae5a5560a37454fff76",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweudeudc001_osdisk_1_e1ec9ec0c1bf4730bb410a6ff9c4b1aa",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweudeudc001_osdisk_1_e1ec9ec0c1bf4730bb410a6ff9c4b1aa",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweudeudc002_osdisk_1_94a54ed2663747a48258adb76df6203b",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweudeudc002_osdisk_1_94a54ed2663747a48258adb76df6203b",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027E10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweudeudc02res-osdisk-20251226-202640",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweudeudc02res-osdisk-20251226-202640",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+},
+    {
+  "name": "vmweudeudc01res-osdisk-20251226-205157",
+  "type": "microsoft.compute/disks",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/disks/vmweudeudc01res-osdisk-20251226-205157",
+  "recommendedAction": "Change tier from \u0027P10 LRS Disk\u0027 to \u0027S10 LRS Disk\u0027"
+}
   ],
   "notes": "This file contains the list of Azure resources affected by this recommendation. Use this data when generating remediation scripts."
 }
