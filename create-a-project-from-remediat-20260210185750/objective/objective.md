@@ -1,8 +1,8 @@
-# Remediation Project - A. Datum Corporation
+# Remediation Project - {{customerName}}
 
 ## Objective
 
-Execute Azure remediation for A. Datum Corporation based on vBox task: **Downscale disks**
+Execute Azure remediation for {{customerName}} based on vBox task: **{{taskTitle}}**
 
 ## Key Goals
 
