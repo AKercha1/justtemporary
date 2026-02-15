@@ -1,9 +1,1 @@
-Meeting Summary:
-
-The meeting was a review of the Q3 roadmap and current project progress. Key discussion points included:
-
-*   **Roadmap Review:** The Q3 roadmap was presented, highlighting key initiatives and their alignment with broader company goals. Minor adjustments were proposed regarding the prioritization of certain features.
-*   **Project Updates:** Individual project leads provided updates on their respective progress, including milestones achieved, any blockers encountered, and upcoming deliverables.
-*   **Resource Allocation:** A discussion took place regarding resource allocation for the remainder of Q3, with a focus on ensuring sufficient personnel are assigned to critical projects.
-*   **Risk Assessment:** Potential risks to the Q3 roadmap were identified and discussed, along with proposed mitigation strategies.
-*   **Next Steps:** Action items were assigned to specific individuals with deadlines for follow-up. The next roadmap review will be scheduled for early Q4.
+This video explains how to differentiate between sheep and goats, two common farm animals. Key distinctions include their feeding habits (sheep graze on grass, goats browse on leaves and shrubs), tail carriage (sheep tails hang down, goat tails point up), coats (sheep have wool, goats have hair), and behavior (sheep are flock animals that follow, goats are curious explorers). Other differences include the presence of horns and beards, facial features, vocalizations, and their typical farm purposes (wool and meat for sheep; milk, meat, fiber, and brush clearing for goats). Ultimately, both animals are valuable farm assets with distinct characteristics.
