@@ -1,17 +1,27 @@
-This video explains how to differentiate between sheep and goats by examining their physical characteristics and behaviors.
+This discussion differentiates sheep and goats, highlighting their distinct characteristics and behaviors. Key differences include:
 
-Sheep are described as grazers that prefer to eat grass and low-lying plants, keeping their heads down. They are strong flock animals, tending to stay together and follow a leader. Their tails typically hang down, and they are known for their wool, which consists of dense, crimped fibers. Sheep are commonly raised for wool, meat, and sometimes milk. They are steady and grounded in their movements, preferring open spaces and group activities.
+**Diet and Feeding Habits:**
+*   **Sheep:** Primarily grazers, preferring grass, clover, and low-lying plants. They tend to keep their heads down while eating.
+*   **Goats:** Browsers, favoring leaves, shrubs, and higher vegetation. They are more likely to stand on hind legs or climb to reach food.
 
-Goats, on the other hand, are browsers, preferring leaves, shrubs, and higher vegetation. They are characterized as curious explorers who will investigate objects and test their surroundings. Their tails often point upwards. Goats typically have hair, which can vary in length and texture, though some breeds produce specialty fibers like cashmere or mohair. They are known for their personality, nimbleness, and ability to climb and balance. Goats are popular for milk, meat, fiber, and brush management. They tend to spread out when in a new pen and are more vocal when seeking attention.
+**Physical Characteristics:**
+*   **Tails:** Sheep tails often hang down, while goat tails typically point upwards.
+*   **Coats:** Sheep are known for wool (dense, crimped fibers), while goats usually have hair (which can vary in texture). Some goats produce specialty fibers like cashmere or mohair.
+*   **Horns:** Many goats naturally have horns, which can be prominent. Some sheep breeds also have horns, particularly rams, but it's less consistent.
+*   **Beards:** Goats, especially males, often have beards. Sheep can have beards in some breeds, but it's less common.
+*   **Faces:** Goat faces are often described as narrower with a more alert or "pointed" expression, while sheep faces may appear rounder and softer.
 
-Key distinguishing features highlighted include:
-*   **Diet:** Sheep graze on grass; goats browse on leaves and shrubs.
-*   **Tail:** Sheep tails generally hang down; goat tails often point up.
-*   **Coats:** Sheep have wool; goats have hair (with exceptions for specialty fibers).
-*   **Behavior:** Sheep are flock animals; goats are independent explorers.
-*   **Horns:** Many goats have horns, which can be prominent; some sheep breeds have horns, particularly rams, but it's more varied.
-*   **Facial Features:** Goats often have beards (especially males), narrower faces with alert expressions; sheep faces can appear rounder and softer.
-*   **Sounds:** Sheep "baa"; goats "bleat" and can be raspier and more vocal.
-*   **Movement:** Goats are nimble climbers; sheep are steady and grounded.
+**Behavior:**
+*   **Social Structure:** Sheep are strong flock animals that stick together for safety and tend to follow a leader.
+*   **Exploration:** Goats are curious explorers who spread out, investigate objects, and test their environment, often described as problem-solvers.
+*   **Movement:** Goats are nimble climbers, able to hop and balance easily. Sheep are steady and grounded, preferring open spaces and group movement.
 
-The video concludes by emphasizing that while both animals have their uses on a farm, their distinct behaviors and characteristics make them uniquely suited to different purposes. The core takeaway is that sheep graze together, while goats browse and explore.
+**Sounds:**
+*   **Sheep:** Typically "baa."
+*   **Goats:** Can "bleat" and often sound raspier. They can be quite vocal when seeking attention.
+
+**Purpose on the Farm:**
+*   **Sheep:** Commonly raised for wool, meat, and sometimes milk.
+*   **Goats:** Popular for milk, meat, fiber, and brush management. Goat milk is a staple in many regions for consumption and cheese production, while sheep milk is richer and used for specific cheeses.
+
+The summary concludes by emphasizing that neither animal is "better," but rather they serve different purposes. Sheep are suited for calm grazing and wool production, while goats offer more personality, browsing capabilities, and are often preferred for milk. The core distinction is that sheep graze together, while goats browse and explore independently.
