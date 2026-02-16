@@ -1,7 +1,70 @@
 {
-  "recommendationType": "{{recommendationTitle}}",
+  "recommendationType": "Downscale or shutdown Virtual Machines",
   "affectedResources": [
-    {{affectedResourcesJson}}
+    {
+  "name": "dev-elderberry",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/wcus-dev-pmd-vm01/providers/microsoft.compute/virtualmachines/dev-elderberry",
+  "recommendedAction": "Change from \u0027Standard_E8bds_v5\u0027 to \u0027Standard_E4bds_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "apple",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/virtualmachines/apple",
+  "recommendedAction": "Change from \u0027Standard_E8bds_v5\u0027 to \u0027Standard_E4bds_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "mrtdapp-reports",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/virtualmachines/mrtdapp-reports",
+  "recommendedAction": "Change from \u0027Standard_D4ds_v5\u0027 to \u0027Standard_D4ads_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "dld",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/virtualmachines/dld",
+  "recommendedAction": "Change from \u0027Standard_D4ds_v5\u0027 to \u0027Standard_D4ads_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "dapp-reports",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-a-compute-01/providers/microsoft.compute/virtualmachines/dapp-reports",
+  "recommendedAction": "Change from \u0027Standard_D4ds_v5\u0027 to \u0027Standard_D4ads_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "vmwcushapps01",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-p-compute-01/providers/microsoft.compute/virtualmachines/vmwcushapps01",
+  "recommendedAction": "Change from \u0027Standard_D4s_v3\u0027 to \u0027Standard_E2ads_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "iasandbox",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/5bd14da6-65ef-41c8-88ce-663170a1d6ff/resourcegroups/rg-wcus-d-compute-01/providers/microsoft.compute/virtualmachines/iasandbox",
+  "recommendedAction": "Change from \u0027Standard_E8as_v5\u0027 to \u0027Standard_E4as_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "alps",
+  "type": "microsoft.compute/virtualmachines",
+  "resourceId": "/subscriptions/348c3a20-66f6-421a-b21c-97bb55449b11/resourcegroups/meriteuprod/providers/microsoft.compute/virtualmachines/alps",
+  "recommendedAction": "Change from \u0027Standard_E32ds_v5\u0027 to \u0027Standard_E32ads_v5\u0027",
+  "region": "",
+  "estimatedSavings": ""
+}
   ],
   "notes": "This file contains the list of Azure resources affected by this recommendation. Use this data when generating remediation scripts."
 }
