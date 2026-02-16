@@ -1,8 +1,8 @@
-# Project Description — Remediation for {{customerName}}
+# Project Description — Remediation for Premier Medical
 
 ## What Is This Project?
 
-This is an **Azure Remediation** project for {{customerName}} addressing: **{{taskTitle}}**.
+This is an **Azure Remediation** project for Premier Medical addressing: **Delete orphaned resources**.
 The project generates production-ready remediation scripts, validates fixes, and produces a runbook with step-by-step instructions.
 
 ## Project Phases
