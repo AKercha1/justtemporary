@@ -1,8 +1,8 @@
-# Remediation Project - {{customerName}}
+# Remediation Project - Premier Medical
 
 ## Objective
 
-Execute Azure remediation for {{customerName}} based on vBox task: **{{taskTitle}}**
+Execute Azure remediation for Premier Medical based on vBox task: **Delete orphaned resources**
 
 ## Key Goals
 
