@@ -1,12 +1,17 @@
-# Remediation Runbook - {{customerName}}
+# Remediation Runbook - Premier Medical
 
-## Task: {{taskTitle}}
+## Task: Delete orphaned resources
 
 ## Recommendation
-{{recommendationTitle}}
+Delete orphaned resources
 
 ## Affected Resources
-{{affectedResources}}
+- **toolbox-search** (microsoft.search/searchservices)
+  - Action: Delete resource
+  - ID: `/subscriptions/ef6ab9ee-c114-4a57-9fc5-3082bbc5c914/resourcegroups/toolbox/providers/microsoft.search/searchservices/toolbox-search`
+- **azr-dev2-sqldb/mudworks analytics** (microsoft.sql/servers/databases)
+  - Action: Delete resource
+  - ID: `/subscriptions/ef6ab9ee-c114-4a57-9fc5-3082bbc5c914/resourcegroups/defaultresourcegroup-ncus/providers/microsoft.sql/servers/azr-dev2-sqldb/databases/mudworks analytics`
 
 ## Pre-Execution Checklist
 
@@ -18,7 +23,7 @@
 
 ## Execution Steps
 
-{{remediationSteps}}
+*No remediation steps provided*
 
 ## Generated Scripts
 
