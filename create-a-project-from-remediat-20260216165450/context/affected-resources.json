@@ -1,7 +1,22 @@
 {
-  "recommendationType": "{{recommendationTitle}}",
+  "recommendationType": "Delete orphaned resources",
   "affectedResources": [
-    {{affectedResourcesJson}}
+    {
+  "name": "toolbox-search",
+  "type": "microsoft.search/searchservices",
+  "resourceId": "/subscriptions/ef6ab9ee-c114-4a57-9fc5-3082bbc5c914/resourcegroups/toolbox/providers/microsoft.search/searchservices/toolbox-search",
+  "recommendedAction": "Delete resource",
+  "region": "",
+  "estimatedSavings": ""
+},
+    {
+  "name": "azr-dev2-sqldb/mudworks analytics",
+  "type": "microsoft.sql/servers/databases",
+  "resourceId": "/subscriptions/ef6ab9ee-c114-4a57-9fc5-3082bbc5c914/resourcegroups/defaultresourcegroup-ncus/providers/microsoft.sql/servers/azr-dev2-sqldb/databases/mudworks analytics",
+  "recommendedAction": "Delete resource",
+  "region": "",
+  "estimatedSavings": ""
+}
   ],
   "notes": "This file contains the list of Azure resources affected by this recommendation. Use this data when generating remediation scripts."
 }
