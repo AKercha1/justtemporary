@@ -1,4 +1,4 @@
-# Remediation Plan - {{customerName}}
+# Remediation Plan - Premier Medical
 
 ## Phase 1: Project Setup (Completed)
 
